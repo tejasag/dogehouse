@@ -15,7 +15,7 @@ export const GenericNotification: React.FC<GenericNotificationProps> = ({
   icon,
 }) => {
   return (
-    <div className="flex items-center w-full">
+    <div className="flex items-center w-full py-3 mx-9">
       <div className="mr-3 w-6 h-6">
         {icon ? icon : <LgSolidRocket className="text-primary-300" />}
       </div>
